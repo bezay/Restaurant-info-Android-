@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bezay.easyeat">
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".menu.About"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".menu.FAQ"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".menu.Terms"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".login.Register"
+            android:parentActivityName=".login.Login" />
+        <activity
+            android:name=".login.ResetPassword"
+            android:parentActivityName=".login.Login" />
+        <activity
+            android:name=".menu.Bakery"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".menu.Cafe"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".login.Login"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".menu.Restaurant"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".RestaurantDetailActivity"
+            android:parentActivityName=".MainActivity"></activity>
+    </application>
+
+</manifest>

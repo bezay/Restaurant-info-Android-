@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">EasyEat</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_search">Search</string>
+    <string name="login">Login</string>
+    <string name="no_account_yet_create_one">No account yet? Create one</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="easy_eat">Easy Eat</string>
+    <string name="user_name">User Name</string>
+    <string-array name="tabs">
+        <item>All</item>
+        <item>NEW</item>
+    </string-array>
+</resources>

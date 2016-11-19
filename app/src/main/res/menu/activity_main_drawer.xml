@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id = "@+id/group1"
+        android:checkableBehavior="single">
+
+            <item
+            android:id="@+id/restaurant"
+            android:icon="@drawable/restaurant"
+            android:title="Restaurant" />
+            <item
+                android:id="@+id/bakery"
+                android:icon="@drawable/bakery"
+                android:title="Bakery" />
+            <item
+                android:id="@+id/cafe"
+                android:icon="@drawable/cafe"
+                android:title="Cafe" />
+
+    </group>
+
+    <group android:id = "@+id/group2"
+        android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/about"
+                    android:icon="@drawable/info"
+                    android:title="About Us" />
+                <item
+                    android:id="@+id/faq"
+                    android:icon="@drawable/faq"
+                    android:title="FAQs" />
+                <item
+                    android:id="@+id/terms"
+                    android:icon="@drawable/condition"
+                    android:title="Terms and Conditions" />
+
+
+    </group>
+
+    <group android:id="@+id/group3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/call"
+            android:icon="@drawable/phone"
+            android:title="Call Us" />
+
+            <item
+            android:id="@+id/login"
+            android:icon="@drawable/login"
+            android:title="Login" />
+
+    </group>
+
+</menu>
